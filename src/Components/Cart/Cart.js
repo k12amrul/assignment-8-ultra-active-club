@@ -33,6 +33,7 @@ const Cart = (props) => {
             <h1> Add a break </h1>
             <div>
                <button></button>
+               <button></button>
             </div>
             <h1> Exercise Details {cart.length}</h1>
             <h2>Exercise time {totalTaime}</h2>
