@@ -1,12 +1,20 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee,faDumbbell, } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Header.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = () => {
     return (
         <div>
             <div className='flex text-size 10'>
+
+
+
+            
+                {/* <FontAwesomeIcon  icon={faCoffee}></FontAwesomeIcon> */}
             <img className='img-icon' src="https://image.shutterstock.com/image-vector/weightlifter-lifts-big-barbell-isolated-600w-1630916395.jpg" alt="" />
-            <h1> Body Bilder Club</h1>
+            <h1 className='  text-5xl '> Body Bilder Club</h1>
 
             </div>
 

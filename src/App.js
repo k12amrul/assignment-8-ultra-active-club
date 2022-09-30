@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import ZimServices from './Components/ZimServices/ZimServices';
 import { useEffect, useState } from 'react';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <ZimServices
 
       ></ZimServices>
+      <Blog></Blog>
      
     </div>
   );

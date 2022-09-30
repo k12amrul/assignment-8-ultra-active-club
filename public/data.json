@@ -2,7 +2,7 @@
     {
 
         "id": 1,
-        "name": "Gym guy",
+        "name": "Barbell",
         "img":"https://www.mensjournal.com/wp-content/uploads/mf/training_main.jpg?w=900&h=506&crop=1&quality=55&strip=all",
         "age": " 25 -30",
         "time": 20
@@ -23,33 +23,18 @@
         "age": "15 -30 ",
         "time": 10
     },
+    
     {
-
         "id": 4,
-        "name": "Plunk",
-        "img":"https://pixabay.com/photos/active-activity-ball-exercise-19413/",
-        "age": "15 -25 ",
-        "time": 20
-    },
-    {
-
-        "id": 5,
-        "name": "Plunk",
-        "img":"https://3.bp.blogspot.com/-CakKGKEKEGo/W7Ntcp4A_KI/AAAAAAAAJs0/jAbznPP5aMwzrNNcotDolK1AN5y7a6UEQCLcBGAs/s1600/Plunk.jpg",
-        "age": "15 -25 ",
-        "time": 20
-    },
-    {
-        "id": 6,
-        "name": "2Edgar Chaparro",
-        "img":"https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "age": "{integer(20, 34)}",
+        "name": "Jumping Jacks",
+        "img":"https://3.bp.blogspot.com/-cqd_HUaV-rs/W7NwTP9popI/AAAAAAAAJtU/2KGZ-JKJl8Q4QWbED-2ZQZnCK9_sVhIlwCLcBGAs/s1600/Jumping-jack.jpg",
+        "age": "25 -35",
         "time": 15
 
     },
     {
         "id": 7,
-        "name": "silhouette body building",
+        "name": "Weight Plate",
         "img":"https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "age": "25 -35",
         "time": 20
@@ -57,8 +42,8 @@
     },
     {
 
-        "id": 4,
-        "name": "Plunk",
+        "id": 8,
+        "name": "dumbbell presses",
         "img":"https://media.istockphoto.com/photos/muscular-man-pulls-a-dumbbell-towards-his-stomach-bodybuilding-and-picture-id1316173356",        
         "age": "15 -25 ",
         "time": 20

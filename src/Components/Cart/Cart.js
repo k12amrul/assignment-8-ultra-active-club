@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -7,6 +7,14 @@ const Cart = (props) => {
     let totalTaime= 0
     for(const   singleCart of cart){
         totalTaime=totalTaime + singleCart.time
+    }
+
+    const [time,setTime]=useState(0)
+    console.log(time);
+    const btn=(p)=>{
+        //console.log(p)
+       //setTime(p)
+        // console.log(event.target.value);
     }
 
     return (
@@ -18,25 +26,25 @@ const Cart = (props) => {
             </div>
             <div className='flex'>
 
-                    <h4>  60 kg</h4>
-                    <h4> 5.5 inc</h4>
-                    <h4>25 </h4>
+                    <h4> Weight  50kg</h4>
+                    <h4> Height 5.5inc</h4>
+                    <h4> Age 25 </h4>
             </div>
-            <div className='flex'>
+            {/* <div className='flex'>
                 <p>Weight</p>
                 <p>height</p>
                 <p>years</p>
     
 
-            </div>
+            </div> */}
             {/*  */}
             <h1> Add a break </h1>
-            <div>
-               <button></button>
-               <button></button>
-               <button></button>
+            <div className='btn'>
+               <button onClick={ btn(10)}>10</button>
+               <button>20</button>
+               <button>30</button>
+               <button>40</button>
             </div>
-               <button></button>
             <h1> Exercise Details {cart.length}</h1>
             <h2>Exercise time {totalTaime}</h2>
             <h2>Break time </h2>
