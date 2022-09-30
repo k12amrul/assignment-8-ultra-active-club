@@ -34,6 +34,9 @@ const Cart = (props) => {
             <div>
                <button></button>
                <button></button>
+               <button></button>
+               <button></button>
+               <button></button>
             </div>
             <h1> Exercise Details {cart.length}</h1>
             <h2>Exercise time {totalTaime}</h2>
