@@ -2,17 +2,22 @@ import React from 'react';
 import './ZimSingleService.css'
 
 const ZimSingleService = (props) => {
-    const {img,name,time,age} =props
+    const {img,name,time,age,handleAddToCart,zimSinglePic } =props
     return (
         
-        <div >
+        <div  className='zim-img'>
            <img src={props.img} alt="" />
-            <h1>name : {name}</h1>
+           <div className='zim-info'>
+            <h1 className='name'>name : {name}</h1>
+
             <h1>for age {age}</h1>
             <p> time :{time}</p> 
-            <button>
-                <p>add to list </p>
+           </div>
+            <button onClick={() => handleAddToCart(zimSinglePic)} className='btn-cart'>
+                <p className='btn-text'>add to list</p>
+                
             </button>
+            
 
             
         </div>

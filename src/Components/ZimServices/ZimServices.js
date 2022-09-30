@@ -12,10 +12,15 @@ const ZimServices = () => {
     },
     [])
     // 
+    const handleAddToCart = (product) =>{
+        console.log('hhh');
+    }
     return (
-        <div className='zim-container'>
+        // zim-container   max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid sm:grid-cols-1
+        <div  className=' zim-container'>
+            {/* className='zim-detail-container */}
 
-            <div className='zim-detail-container'>
+            <div  className=' max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid md:grid-cols-3 sm:grid-cols-2'>
             {
                 zimPics.map(zimSinglePic =>
                     <ZimSingleService key={zimSinglePic.id}
@@ -23,6 +28,8 @@ const ZimServices = () => {
                     img={zimSinglePic.img}
                     age={zimSinglePic.age}
                     time={zimSinglePic.time}
+                    zimSinglePic={zimSinglePic}
+                    handleAddToCart={handleAddToCart}
                     ></ZimSingleService>
                     // console.log(zimSinglePic);
                 )
