@@ -4,6 +4,8 @@ import ZimSingleService from '../ZimSigleService/ZimSingleService';
 import './ZimServices.css'
 const ZimServices = () => {
     const[zimPics,setzimPic]=useState([])
+    const [cart, setCart] = useState([]);
+
 
     useEffect(() =>{
         fetch('data.json')
@@ -12,8 +14,10 @@ const ZimServices = () => {
     },
     [])
     // 
-    const handleAddToCart = (product) =>{
-        console.log('hhh');
+    const handleAddToCart = (zimSinglePic) =>{
+        console.log(zimSinglePic);
+        const newCart=[...cart,zimSinglePic]
+        setCart(newCart)
     }
     return (
         // zim-container   max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid sm:grid-cols-1
@@ -36,9 +40,10 @@ const ZimServices = () => {
             }
 
             </div>
-            <div className='zim-detail-container'>
+            <div className='zim-detail-containe'>
+                <h4>slected{cart.length}</h4>
                
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
 
             </div>
 
