@@ -9,13 +9,13 @@ const Cart = (props) => {
         totalTaime=totalTaime + singleCart.time
     }
 
-    const [time,setTime]=useState(0)
-    console.log(time);
-    const btn=(p)=>{
-        //console.log(p)
-       //setTime(p)
-        // console.log(event.target.value);
-    }
+    // const [time,setTime]=useState(0)
+    // console.log(time);
+    // const btn=(p)=>{
+    //     //console.log(p)
+    //    //setTime(p)
+    //     // console.log(event.target.value);
+    // }
 
     return (
         <div className='cart'>
@@ -40,12 +40,12 @@ const Cart = (props) => {
             {/*  */}
             <h1> Add a break </h1>
             <div className='btn'>
-               <button onClick={ btn(10)}>10</button>
+               <button >10</button>
                <button>20</button>
                <button>30</button>
                <button>40</button>
             </div>
-            <h1> Exercise Details {cart.length}</h1>
+            <h1 className=''> Exercise Details</h1>
             <h2>Exercise time {totalTaime}</h2>
             <h2>Break time </h2>
             
@@ -54,3 +54,6 @@ const Cart = (props) => {
 };
 
 export default Cart;
+
+//  https://github.com/Programming-Hero-Web-Course4/b6-ultra-active-club-k12amrul
+// https://comforting-monstera-75b69a.netlify.app/

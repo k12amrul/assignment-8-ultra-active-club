@@ -21,10 +21,10 @@ const ZimServices = () => {
     }
     return (
         // zim-container   max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid sm:grid-cols-1
-        <div  className=' zim-container'>
+        <div  className='flex'>
             {/* className='zim-detail-container */}
 
-            <div  className=' max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid md:grid-cols-3 sm:grid-cols-2'>
+            <div  className=' max-w-[1100px] gap-4 mx-10 md:mx-auto min-h-[300px] grid md:grid-cols-3 sm:grid-cols-1'>
             {
                 zimPics.map(zimSinglePic =>
                     <ZimSingleService key={zimSinglePic.id}
@@ -40,9 +40,8 @@ const ZimServices = () => {
             }
 
             </div>
-            <div className='zim-detail-containe'>
-                <h4>slected{cart.length}</h4>
-               
+            <div className=' zim-detail-containe'>
+            
                 <Cart cart={cart}></Cart>
 
             </div>
