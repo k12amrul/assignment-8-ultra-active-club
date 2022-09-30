@@ -10,7 +10,9 @@ const Cart = () => {
 
             </div>
             
-                    <h4>w  60 kg</h4>
+                    <h4>Weight  60 kg</h4>
+                    <h4>height 5.5 inc</h4>
+                    <h4>25 yers</h4>
             
         </div>
     );
